@@ -1,0 +1,140 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #0B1829;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Crimson Pro', Georgia, serif;
+}
+
+.login-card {
+  background: #112240;
+  border: 1px solid #C9A84C;
+  border-radius: 12px;
+  padding: 3rem 2.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #C9A84C;
+  letter-spacing: .04em;
+}
+
+.logo p {
+  font-size: .8rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #8ea8c8;
+  margin-top: .3rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #8ea8c8;
+  margin-bottom: .5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: .75rem 1rem;
+  background: #1B3A5C;
+  border: 1px solid #C9A84C;
+  border-radius: 5px;
+  color: #F5F0E8;
+  font-family: 'Crimson Pro', serif;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.form-group input:focus {
+  border-color: #F0D98B;
+  box-shadow: 0 0 0 3px rgba(201,168,76,.15);
+}
+
+.error-msg {
+  background: #8b3a1c22;
+  border: 1px solid #8b3a1c;
+  color: #f5a58a;
+  border-radius: 5px;
+  padding: .65rem 1rem;
+  font-size: .9rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.btn-login {
+  width: 100%;
+  padding: .85rem;
+  background: #C9A84C;
+  color: #0B1829;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+  letter-spacing: .04em;
+  transition: background .2s;
+  margin-top: .5rem;
+}
+
+.btn-login:hover {
+  background: #F0D98B;
+}
+
+.hint {
+  text-align: center;
+  color: #4a6080;
+  font-size: .82rem;
+  margin-top: 1.5rem;
+  font-style: italic;
+}
+
+ /* .toast {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+.btn-signup {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-signup:hover {
+  background: #333;
+  color: #fff;
+}
+
